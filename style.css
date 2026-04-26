@@ -32,7 +32,7 @@ html{
   padding:0px;
 }
 
-button{
+#header-button{
   background-color: #3882F6;
   color:white;
   padding-left:15px;
@@ -41,9 +41,6 @@ button{
   padding-bottom:4px;
   border-radius:5px;
   border:none;
-}
-
-#header-button{
   margin-top:2px;
 }
 
@@ -153,3 +150,57 @@ font-weight:bold;
 padding-right:10px;
 }
 
+#top-bottom{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding-top:80px;
+  padding-bottom:80px;
+}
+
+#info-container{
+  display:flex;
+  background-color:#3882F6;
+  width:900px;
+  height:130px;
+  color:white;
+  border-radius:10px;
+  justify-content:center;
+}
+
+
+#ic-top{
+  font-size:22px;
+  font-weight:bold;
+}
+
+#ic-bottom{
+  font-size:18px;
+}
+
+#content{
+  display: flex;
+  gap:140px;
+  align-self:center;
+}
+
+#bottom-button{
+  align-self:center;
+  border: 2px solid white;
+  background-color:#3882F6;
+  color:white;
+  width:100px;
+  height:40px;
+  font-size:18px;
+  border-radius:10px;
+}
+
+#footer{
+  display:flex;
+  background-color:#1F2937;
+  padding-top:40px;
+  padding-bottom:40px;
+  color:white;
+  justify-content: center;
+  align-items: center;
+}
